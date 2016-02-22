@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flipflop</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="controls">
+            <label class="difficulty-label">
+                Level:
+            </label>
+            <select class="difficulty-level">
+                <option value="easy" selected>Rookie</option>
+                <option value="medium">Veteran</option>
+                <option value="hard">God</option>
+            </select>
+            <a href="#" class="new-game">New Game</a>
+        </div>
+        <div class="board-table">
+            <div class="board-cell">
+                <div class="board"></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.js"></script>
+    <script type="text/javascript" src="js/gameplay.js"></script>
+</body>
+</html>
